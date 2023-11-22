@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="es">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Techlogistic</title>
+  <meta name="description" content="" />
+  <!-- Favicon -->
+  <link rel="icon" href="imagenes/favicon.png" />
+  <!-- Box icons-->
+  <link href='https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css' rel='stylesheet' />
+  <!-- Normalize -->
+  <link rel="stylesheet" href="./styles/normalize.css" />
+  <!-- Estilos CSS -->
+  <link rel="stylesheet" href="./styles/techlogistic.css" />
+</head>
+
+<body>
+  <!-- Scroll top -->
+  <a href="#" class="scrolltop" id="scroll-top" title="Scroll top">
+    <i class='bx bx-chevron-up scrolltop__icon'></i>
+  </a>
+  <!-- Header -->
+  <header class="header" id="header">
+    <nav class="navigation bd-container">
+      <div class="navigation__container-logo">
+        <a href="index_principal.xhtml" class="navigation__logo" title="Techlogistic"><img src="imagenes/favicon.png" alt=""
+            class="navigation__image" />Techlogistic</a>
+      </div>
+      <div class="navigation__toggle" id="navigation-toggle">
+        <i class='bx bx-menu'></i>
+      </div>
+    </nav>
+  </header>
+  <!-- Main-->
+  <main class="main">
+    <section class="section section-auth">
+      <div class="wrapper-box">
+        <h3 class="title">Iniciar sesión</h3>
+        <panelGrid>
+          <div class="form-field">
+            <outputLabel for="email">Correo electrónico</outputLabel>
+            <inputText
+              type="email"
+              placeholder="Ingresa tu correo electrónico"
+              id="email"
+              name="email"
+              class="js-email-input"
+              pattern="[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}"
+              
+            />
+          </div>
+          <div class="form-field">
+            <outputLabel for="password">Contraseña</outputLabel>
+            <inputText
+              type="password"
+              placeholder="Ingresa tu contraseña"
+              id="password"
+              name="sign-in-form-password"
+              pattern=".{8,}"
+              
+            />
+          </div>
+            </panelGrid>
+          <commandButton class="button mb-1" type="submit" action="index.xhtml" value="Iniciar sesión" />
+
+          <p class="block text-center">
+            Si has olvidado tu contraseña debes informarle a tu jefe inmediato para que sea restablecida.
+          </p>
+        
+      </div>
+    </section>
+    <footer class="copyright">
+      <div class="bd-container">
+        <p>💙 © 2023 Techlogistic. Todos los derechos reservados. 💚</p>
+        <p><a href="politicas/terminos-y-condiciones.xhtml">Términos y Condiciones</a> · <a
+            href="politicas/politica-de-privacidad.xhtml">Política de Privacidad</a></p>
+      </div>
+    </footer>
+  </main>
+
+  <!-- Scroll reveal -->
+  <script src="https://unpkg.com/scrollreveal"></script>
+  <!-- Main JS-->
+  <script src="./js/techlogistic.js"></script>
+</body>
+
+</html>
+
