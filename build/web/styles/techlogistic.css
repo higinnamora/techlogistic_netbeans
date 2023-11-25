@@ -155,6 +155,7 @@ img {
 }
 .header ul {
   list-style: none;
+  margin: 0;
   padding: 0;
 }
 /* Nav */
@@ -525,7 +526,7 @@ a.button {
 }
 .banner-chart {
   background-color: #000000;
-  background-image: url(../images/design/bg/banner-chart-background.png);
+  background-image: url("../images/bg/banner-chart-background.png");
   background-position: center 90%;
   background-repeat: no-repeat;
   background-size: contain;
